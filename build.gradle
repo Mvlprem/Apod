@@ -1,0 +1,29 @@
+buildscript {
+
+    ext {
+        navigation_version = "2.3.5"
+        lifecycle_version = "2.4.0"
+        recycler_version = "1.2.1"
+        moshi_version = "1.12.0"
+        retrofit_version = "2.9.0"
+        glide_version = "4.12.0"
+        room_version = "2.3.0"
+        data_store_version = "1.0.0"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version"
+        classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.0"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

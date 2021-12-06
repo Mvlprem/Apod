@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.mvlprem.apod.viewmodels.SharedViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_big"
+        android:orientation="vertical"
+        tools:context=".ui.fragments.SettingsFragment">
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_small"
+            android:text="@string/theme"
+            android:textAppearance="@style/Subtitle1" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dividerInsetEnd="@dimen/margin_small"
+            app:dividerInsetStart="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/delete_cache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_small"
+            android:text="@string/cache"
+            android:textAppearance="@style/Subtitle1" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:dividerInsetEnd="@dimen/margin_small"
+            app:dividerInsetStart="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/delete_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_small"
+            android:text="@string/delete"
+            android:textAppearance="@style/Subtitle1" />
+
+    </LinearLayout>
+
+</layout>

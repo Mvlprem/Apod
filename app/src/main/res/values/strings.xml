@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Apod</string>
+
+    <!-- Bottom Navigation Menu Strings -->
+    <string name="bottom_nav_menu_home">Home</string>
+    <string name="bottom_nav_menu_search">Search</string>
+    <string name="bottom_nav_menu_favorite">Favorite</string>
+    <string name="bottom_nav_menu_settings">Settings</string>
+
+    <!-- Preview Strings -->
+    <string name="apod_date">Sat, Nov 13</string>
+    <string name="apod_title">The Cat\'s Eye Nebula in Optical and X-ray</string>
+    <string name="apod_explanation">Will our Sun look like this one day?  The Helix Nebula is one of brightest and closest examples of a planetary nebula, a gas cloud created at the end of the life of a Sun-like star. The outer gasses of the star expelled into space appear from our vantage point as if we are looking down a helix. The remnant central stellar core, destined to become a white dwarf star, glows in light so energetic it causes the previously expelled gas to fluoresce. The Helix Nebula, given a technical designation of NGC 7293, lies about 700 light-years away towards the constellation of the Water Bearer (Aquarius) and spans about 2.5 light-years. The featured picture was taken with the Canada-France-Hawaii Telescope (CFHT) located atop a dormant volcano in Hawaii, USA. A close-up of the inner edge of the Helix Nebula shows complex gas knots of unknown origin.   Free APOD Lectures: January 5 in NYC &amp; January 9 in DC
+    </string>
+
+    <!-- Settings Fragment Strings -->
+    <string name="theme">Theme</string>
+    <string name="cache">Refresh cache</string>
+    <string name="cache_message">Are you sure you want to delete all your cached pictures, This will free up some storage space</string>
+    <string name="delete">Delete favorites</string>
+    <string name="delete_message">Are you sure you want to remove all your favorites, This is permanent and cannot be undone</string>
+    <string name="dialogue_title">Choose theme</string>
+    <string name="decline">Cancel</string>
+    <string name="accept">OK</string>
+    <string name="deleted">Successfully Deleted</string>
+
+    <!-- Others -->
+    <string name="content_description">Astronomy Picture</string>
+    <string name="content_description_fab">Date Picker</string>
+    <string name="content_description_button">Button</string>
+    <string name="failed_intent">Failed to open</string>
+    <string name="network_error">No internet connection</string>
+    <string name="downloading">Downloading file…</string>
+    <string name="successful">Saved to favorites</string>
+    <string name="search_hint">Select a range of dates to start exploring Astronomy Pictures</string>
+    <string name="favorites_hint">You don\'t have any favorites</string>
+</resources>

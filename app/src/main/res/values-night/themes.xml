@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.APOD" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/apod_black</item>
+
+        <!-- Customize your theme here. -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="android:navigationBarColor">@color/apod_black</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+    <!-- Layout Background -->
+    <style name="Layout.Background" parent="">
+        <item name="android:background">@color/apod_black</item>
+    </style>
+
+    <!-- Card Background -->
+    <style name="Card.Background" parent="">
+        <item name="android:backgroundTint">@color/apod_dark</item>
+    </style>
+
+    <!-- Bottom Navigation Theme. -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/apod_black</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- Floating Action Button. -->
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorSecondary">@color/apod_dark</item>
+        <item name="colorOnSecondary">@color/apod_white</item>
+    </style>
+
+    <!-- Material Date Picker Dialogue. -->
+    <style name="ThemeOverlay.App.DatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/apod_white</item>
+        <item name="colorOnPrimary">@color/apod_dark</item>
+        <item name="colorSurface">@color/apod_black</item>
+        <item name="colorOnSurface">@color/apod_white</item>
+    </style>
+
+    <!-- Material Dialogue. -->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/apod_black</item>
+        <item name="colorOnPrimary">@color/apod_white</item>
+        <item name="colorSecondary">@color/apod_white</item>
+    </style>
+
+</resources>
